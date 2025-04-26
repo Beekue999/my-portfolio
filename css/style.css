@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container01 {
+  height: 100vh;
+}
+
+.header {
+  color: rgb(30, 26, 26);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right nav ul {
+  list-style: none;
+  gap: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: rgb(252, 246, 246);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+}
+.menu {
+  display: block;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.container02 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+image {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+span {
+  font-size: 30px;
+  color: rgb(247, 245, 245);
+}
+
+p {
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.social-icons a {
+  color: rgb(159, 154, 154);
+  font-size: 30px;
+  margin: 10px;
+  text-decoration: none;
+}
+.social-icons i:hover {
+  color: rgb(214, 34, 34);
+  border: 1px solid rgb(214, 34, 34);
+  border-radius: 50%;
+}
+
+.hire {
+  background: none;
+  color: rgb(205, 21, 21);
+  padding: 10px 20px;
+  border: 1px red solid;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.hire:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(22, 20, 20);
+}
+
+/* .text {
+} */
+.text h2 span {
+  font-size: 1.5rem;
+  color: red;
+}
+/* Medium  screen (tablet) */
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .text h2 span{
+    color: green;
+  }
+}
+
+/* Small screen (mobile) */
+ @media (max-width: 767.98px) {
+  .text h2 span{ 
+    color: blue;
+  }
+}
+  .menu {
+  display: none;
+}
